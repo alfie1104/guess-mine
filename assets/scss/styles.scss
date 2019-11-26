@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700");
 @import "variables";
 @import "reset";
+@import "login";
 
 * {
   box-sizing: border-box;
@@ -26,6 +27,7 @@ body {
   .gameContainer {
     display: none;
   }
+
   &.loggedOut {
     .loginBox {
       display: block;
